@@ -1,0 +1,13 @@
+\copy dss_customer from './data/dss_customer.csv' csv
+\copy dss_lineitem from './data/dss_lineitem_part_1.csv' csv
+\copy dss_lineitem from './data/dss_lineitem_part_2.csv' csv
+\copy dss_lineitem from './data/dss_lineitem_part_3.csv' csv
+\copy dss_lineitem from './data/dss_lineitem_part_4.csv' csv
+\copy dss_lineitem from './data/dss_lineitem_part_5.csv' csv
+\copy dss_lineitem from './data/dss_lineitem_part_6.csv' csv
+\copy dss_nation from './data/dss_nation.csv' csv
+\copy dss_order from './data/dss_order.csv' csv
+\copy dss_part from './data/dss_part.csv' csv
+\copy dss_partsupp from './data/dss_partsupp.csv' csv
+\copy dss_region from './data/dss_region.csv' csv
+\copy dss_supplier from './data/dss_supplier.csv' csv
