@@ -1,0 +1,34 @@
+{
+  "hosts": [
+    {
+      "uri": "postgresql://dadubovs-postgres.postgres.database.azure.com:5432",
+      "user": "dadubovs@dadubovs-postgres",
+      "password": "Dd150589!"
+    },
+    {
+      "uri": "postgresql://dadubovs-postgres2.postgres.database.azure.com:5432",
+      "user": "dadubovs@dadubovs-postgres2",
+      "password": "Dd150589!"
+    },
+    {
+      "uri": "postgresql://dadubovs-postgres3.postgres.database.azure.com:5432",
+      "user": "dadubovs@dadubovs-postgres3",
+      "password": "Dd150589!"
+    }
+  ],
+  "datasets": {
+    "imdb": {
+      "host": 0
+    },
+    "stats": {
+      "host": 1
+    },
+    "tpch": {
+      "host": 2
+    },
+    "airlines": {
+    },
+    "adworks": {
+    }
+  }
+}
