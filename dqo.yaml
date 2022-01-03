@@ -1,0 +1,41 @@
+name: dqo
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip=20.1.1
+  - python=3.7.7
+  - tqdm=4.48.2
+  - wheel=0.34.2
+  - yaml=0.2.5
+  - pip:
+    - bitarray
+    - click
+    - dacite
+    - gym
+    - ipykernel
+    - ipython
+    - jupyter
+    - jupyterlab
+    - matplotlib
+    - mock==4.0.2
+    - moz-sql-parser==2.44.19084
+    - numpy==1.19.0
+    - pandas==1.0.5
+    - pillow==7.2.0
+    - ply==3.11
+    - psycopg2==2.8.5
+    - psycopg2-binary==2.8.5
+    - pytest==5.4.3
+    - pytorch-lightning==0.9.0rc9
+    - pytz==2019.2
+    - requests==2.24.0
+    - scikit-learn==0.23.1
+    - scipy==1.5.1
+    - seaborn==0.10.1
+    - sklearn==0.0
+    - sqlparse==0.3.0
+    - termcolor==1.1.0
+    - torch==1.5.1
+    - tornado==6.0.4
+
