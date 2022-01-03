@@ -1,0 +1,4358 @@
+{
+  "tables": [
+    {
+      "name": "aka_name",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "number",
+          "meta": {
+            "total": 901343,
+            "nulls": 0,
+            "distinct": 901343,
+            "index": true,
+            "min": 1.0,
+            "max": 901343.0
+          }
+        },
+        {
+          "name": "person_id",
+          "data_type": "number",
+          "meta": {
+            "total": 901343,
+            "nulls": 0,
+            "distinct": 588222,
+            "index": false,
+            "min": 4.0,
+            "max": 4167489.0
+          }
+        },
+        {
+          "name": "name",
+          "data_type": "string",
+          "meta": {
+            "total": 901343,
+            "nulls": 0,
+            "distinct": 810514,
+            "index": false,
+            "min_length": 1,
+            "max_length": 218
+          }
+        },
+        {
+          "name": "imdb_index",
+          "data_type": "string",
+          "meta": {
+            "total": 901343,
+            "nulls": 901326,
+            "distinct": 5,
+            "index": false,
+            "min_length": 1,
+            "max_length": 3
+          }
+        },
+        {
+          "name": "name_pcode_cf",
+          "data_type": "string",
+          "meta": {
+            "total": 901343,
+            "nulls": 109,
+            "distinct": 22017,
+            "index": false,
+            "min_length": 1,
+            "max_length": 5
+          }
+        },
+        {
+          "name": "name_pcode_nf",
+          "data_type": "string",
+          "meta": {
+            "total": 901343,
+            "nulls": 109268,
+            "distinct": 21138,
+            "index": false,
+            "min_length": 1,
+            "max_length": 5
+          }
+        },
+        {
+          "name": "surname_pcode",
+          "data_type": "string",
+          "meta": {
+            "total": 901343,
+            "nulls": 280246,
+            "distinct": 4312,
+            "index": false,
+            "min_length": 1,
+            "max_length": 4
+          }
+        },
+        {
+          "name": "md5sum",
+          "data_type": "string",
+          "meta": {
+            "total": 901343,
+            "nulls": 0,
+            "distinct": 810625,
+            "index": false,
+            "min_length": 32,
+            "max_length": 32
+          }
+        }
+      ],
+      "alias": null,
+      "meta": {
+        "rows": 901343,
+        "pages": 11396,
+        "page_size": 8192
+      }
+    },
+    {
+      "name": "aka_title",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "number",
+          "meta": {
+            "total": 361472,
+            "nulls": 0,
+            "distinct": 361472,
+            "index": true,
+            "min": 1.0,
+            "max": 377960.0
+          }
+        },
+        {
+          "name": "movie_id",
+          "data_type": "number",
+          "meta": {
+            "total": 361472,
+            "nulls": 0,
+            "distinct": 205631,
+            "index": false,
+            "min": 0.0,
+            "max": 2525672.0
+          }
+        },
+        {
+          "name": "title",
+          "data_type": "string",
+          "meta": {
+            "total": 361472,
+            "nulls": 0,
+            "distinct": 313624,
+            "index": false,
+            "min_length": 1,
+            "max_length": 553
+          }
+        },
+        {
+          "name": "imdb_index",
+          "data_type": "string",
+          "meta": {
+            "total": 361472,
+            "nulls": 358492,
+            "distinct": 12,
+            "index": false,
+            "min_length": 1,
+            "max_length": 4
+          }
+        },
+        {
+          "name": "kind_id",
+          "data_type": "number",
+          "meta": {
+            "total": 361472,
+            "nulls": 0,
+            "distinct": 6,
+            "index": false,
+            "min": 1.0,
+            "max": 7.0
+          }
+        },
+        {
+          "name": "production_year",
+          "data_type": "number",
+          "meta": {
+            "total": 361472,
+            "nulls": 3032,
+            "distinct": 128,
+            "index": false,
+            "min": 1888.0,
+            "max": 2016.0
+          }
+        },
+        {
+          "name": "phonetic_code",
+          "data_type": "string",
+          "meta": {
+            "total": 361472,
+            "nulls": 5194,
+            "distinct": 20013,
+            "index": false,
+            "min_length": 1,
+            "max_length": 5
+          }
+        },
+        {
+          "name": "episode_of_id",
+          "data_type": "number",
+          "meta": {
+            "total": 361472,
+            "nulls": 358596,
+            "distinct": 754,
+            "index": false,
+            "min": 10.0,
+            "max": 25391.0
+          }
+        },
+        {
+          "name": "season_nr",
+          "data_type": "number",
+          "meta": {
+            "total": 361472,
+            "nulls": 358855,
+            "distinct": 40,
+            "index": false,
+            "min": 1.0,
+            "max": 63.0
+          }
+        },
+        {
+          "name": "episode_nr",
+          "data_type": "number",
+          "meta": {
+            "total": 361472,
+            "nulls": 358879,
+            "distinct": 162,
+            "index": false,
+            "min": 1.0,
+            "max": 4315.0
+          }
+        },
+        {
+          "name": "note",
+          "data_type": "string",
+          "meta": {
+            "total": 361472,
+            "nulls": 27968,
+            "distinct": 3360,
+            "index": false,
+            "min_length": 4,
+            "max_length": 72
+          }
+        },
+        {
+          "name": "md5sum",
+          "data_type": "string",
+          "meta": {
+            "total": 361472,
+            "nulls": 0,
+            "distinct": 346289,
+            "index": false,
+            "min_length": 32,
+            "max_length": 32
+          }
+        }
+      ],
+      "alias": null,
+      "meta": {
+        "rows": 361472,
+        "pages": 6192,
+        "page_size": 8192
+      }
+    },
+    {
+      "name": "cast_info",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "number",
+          "meta": {
+            "total": 36244344,
+            "nulls": 0,
+            "distinct": 36244344,
+            "index": true,
+            "min": 1.0,
+            "max": 36244344.0
+          }
+        },
+        {
+          "name": "person_id",
+          "data_type": "number",
+          "meta": {
+            "total": 36244344,
+            "nulls": 0,
+            "distinct": 4051810,
+            "index": false,
+            "min": 1.0,
+            "max": 4061926.0
+          }
+        },
+        {
+          "name": "movie_id",
+          "data_type": "number",
+          "meta": {
+            "total": 36244344,
+            "nulls": 0,
+            "distinct": 2331601,
+            "index": false,
+            "min": 1.0,
+            "max": 2525975.0
+          }
+        },
+        {
+          "name": "person_role_id",
+          "data_type": "number",
+          "meta": {
+            "total": 36244344,
+            "nulls": 18672825,
+            "distinct": 3140339,
+            "index": false,
+            "min": 1.0,
+            "max": 3140339.0
+          }
+        },
+        {
+          "name": "note",
+          "data_type": "string",
+          "meta": {
+            "total": 36244344,
+            "nulls": 22007252,
+            "distinct": 715273,
+            "index": false,
+            "min_length": 2,
+            "max_length": 922
+          }
+        },
+        {
+          "name": "nr_order",
+          "data_type": "number",
+          "meta": {
+            "total": 36244344,
+            "nulls": 25459763,
+            "distinct": 1094,
+            "index": false,
+            "min": 0.0,
+            "max": 1115798165.0
+          }
+        },
+        {
+          "name": "role_id",
+          "data_type": "number",
+          "meta": {
+            "total": 36244344,
+            "nulls": 0,
+            "distinct": 11,
+            "index": false,
+            "min": 1.0,
+            "max": 11.0
+          }
+        }
+      ],
+      "alias": null,
+      "meta": {
+        "rows": 36244344,
+        "pages": 252687,
+        "page_size": 8192
+      }
+    },
+    {
+      "name": "char_name",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "number",
+          "meta": {
+            "total": 3140339,
+            "nulls": 0,
+            "distinct": 3140339,
+            "index": true,
+            "min": 1.0,
+            "max": 3140339.0
+          }
+        },
+        {
+          "name": "name",
+          "data_type": "string",
+          "meta": {
+            "total": 3140339,
+            "nulls": 0,
+            "distinct": 3139462,
+            "index": false,
+            "min_length": 1,
+            "max_length": 478
+          }
+        },
+        {
+          "name": "imdb_index",
+          "data_type": "string",
+          "meta": {
+            "total": 3140339,
+            "nulls": 3140311,
+            "distinct": 6,
+            "index": false,
+            "min_length": 1,
+            "max_length": 2
+          }
+        },
+        {
+          "name": "imdb_id",
+          "data_type": "number",
+          "meta": {
+            "total": 3140339,
+            "nulls": 3140339,
+            "distinct": 0,
+            "index": false,
+            "min": 0.0,
+            "max": 0.0
+          }
+        },
+        {
+          "name": "name_pcode_nf",
+          "data_type": "string",
+          "meta": {
+            "total": 3140339,
+            "nulls": 488,
+            "distinct": 23076,
+            "index": false,
+            "min_length": 1,
+            "max_length": 5
+          }
+        },
+        {
+          "name": "surname_pcode",
+          "data_type": "string",
+          "meta": {
+            "total": 3140339,
+            "nulls": 470680,
+            "distinct": 17198,
+            "index": false,
+            "min_length": 1,
+            "max_length": 5
+          }
+        },
+        {
+          "name": "md5sum",
+          "data_type": "string",
+          "meta": {
+            "total": 3140339,
+            "nulls": 0,
+            "distinct": 3140339,
+            "index": false,
+            "min_length": 32,
+            "max_length": 32
+          }
+        }
+      ],
+      "alias": null,
+      "meta": {
+        "rows": 3140339,
+        "pages": 36448,
+        "page_size": 8192
+      }
+    },
+    {
+      "name": "comp_cast_type",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "number",
+          "meta": {
+            "total": 4,
+            "nulls": 0,
+            "distinct": 4,
+            "index": true,
+            "min": 1.0,
+            "max": 4.0
+          }
+        },
+        {
+          "name": "kind",
+          "data_type": "string",
+          "meta": {
+            "total": 4,
+            "nulls": 0,
+            "distinct": 4,
+            "index": false,
+            "min_length": 4,
+            "max_length": 17
+          }
+        }
+      ],
+      "alias": null,
+      "meta": {
+        "rows": 4,
+        "pages": 1,
+        "page_size": 8192
+      }
+    },
+    {
+      "name": "company_name",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "number",
+          "meta": {
+            "total": 234997,
+            "nulls": 0,
+            "distinct": 234997,
+            "index": true,
+            "min": 1.0,
+            "max": 234997.0
+          }
+        },
+        {
+          "name": "name",
+          "data_type": "string",
+          "meta": {
+            "total": 234997,
+            "nulls": 0,
+            "distinct": 224384,
+            "index": false,
+            "min_length": 1,
+            "max_length": 169
+          }
+        },
+        {
+          "name": "country_code",
+          "data_type": "string",
+          "meta": {
+            "total": 234997,
+            "nulls": 23924,
+            "distinct": 215,
+            "index": false,
+            "min_length": 4,
+            "max_length": 6
+          }
+        },
+        {
+          "name": "imdb_id",
+          "data_type": "number",
+          "meta": {
+            "total": 234997,
+            "nulls": 234997,
+            "distinct": 0,
+            "index": false,
+            "min": 0.0,
+            "max": 0.0
+          }
+        },
+        {
+          "name": "name_pcode_nf",
+          "data_type": "string",
+          "meta": {
+            "total": 234997,
+            "nulls": 36,
+            "distinct": 18486,
+            "index": false,
+            "min_length": 1,
+            "max_length": 5
+          }
+        },
+        {
+          "name": "name_pcode_sf",
+          "data_type": "string",
+          "meta": {
+            "total": 234997,
+            "nulls": 23924,
+            "distinct": 17446,
+            "index": false,
+            "min_length": 1,
+            "max_length": 5
+          }
+        },
+        {
+          "name": "md5sum",
+          "data_type": "string",
+          "meta": {
+            "total": 234997,
+            "nulls": 0,
+            "distinct": 234997,
+            "index": false,
+            "min_length": 32,
+            "max_length": 32
+          }
+        }
+      ],
+      "alias": null,
+      "meta": {
+        "rows": 234997,
+        "pages": 2995,
+        "page_size": 8192
+      }
+    },
+    {
+      "name": "company_type",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "number",
+          "meta": {
+            "total": 4,
+            "nulls": 0,
+            "distinct": 4,
+            "index": true,
+            "min": 1.0,
+            "max": 4.0
+          }
+        },
+        {
+          "name": "kind",
+          "data_type": "string",
+          "meta": {
+            "total": 4,
+            "nulls": 0,
+            "distinct": 4,
+            "index": false,
+            "min_length": 12,
+            "max_length": 25
+          }
+        }
+      ],
+      "alias": null,
+      "meta": {
+        "rows": 4,
+        "pages": 1,
+        "page_size": 8192
+      }
+    },
+    {
+      "name": "complete_cast",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "number",
+          "meta": {
+            "total": 135086,
+            "nulls": 0,
+            "distinct": 135086,
+            "index": true,
+            "min": 1.0,
+            "max": 135086.0
+          }
+        },
+        {
+          "name": "movie_id",
+          "data_type": "number",
+          "meta": {
+            "total": 135086,
+            "nulls": 0,
+            "distinct": 93514,
+            "index": false,
+            "min": 285.0,
+            "max": 2528312.0
+          }
+        },
+        {
+          "name": "subject_id",
+          "data_type": "number",
+          "meta": {
+            "total": 135086,
+            "nulls": 0,
+            "distinct": 2,
+            "index": false,
+            "min": 1.0,
+            "max": 2.0
+          }
+        },
+        {
+          "name": "status_id",
+          "data_type": "number",
+          "meta": {
+            "total": 135086,
+            "nulls": 0,
+            "distinct": 2,
+            "index": false,
+            "min": 3.0,
+            "max": 4.0
+          }
+        }
+      ],
+      "alias": null,
+      "meta": {
+        "rows": 135086,
+        "pages": 731,
+        "page_size": 8192
+      }
+    },
+    {
+      "name": "info_type",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "number",
+          "meta": {
+            "total": 113,
+            "nulls": 0,
+            "distinct": 113,
+            "index": true,
+            "min": 1.0,
+            "max": 113.0
+          }
+        },
+        {
+          "name": "info",
+          "data_type": "string",
+          "meta": {
+            "total": 113,
+            "nulls": 0,
+            "distinct": 113,
+            "index": false,
+            "min_length": 4,
+            "max_length": 31
+          }
+        }
+      ],
+      "alias": null,
+      "meta": {
+        "rows": 113,
+        "pages": 1,
+        "page_size": 8192
+      }
+    },
+    {
+      "name": "keyword",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "number",
+          "meta": {
+            "total": 134170,
+            "nulls": 0,
+            "distinct": 134170,
+            "index": true,
+            "min": 1.0,
+            "max": 134170.0
+          }
+        },
+        {
+          "name": "keyword",
+          "data_type": "string",
+          "meta": {
+            "total": 134170,
+            "nulls": 0,
+            "distinct": 134170,
+            "index": false,
+            "min_length": 2,
+            "max_length": 74
+          }
+        },
+        {
+          "name": "phonetic_code",
+          "data_type": "string",
+          "meta": {
+            "total": 134170,
+            "nulls": 38,
+            "distinct": 15481,
+            "index": false,
+            "min_length": 1,
+            "max_length": 5
+          }
+        }
+      ],
+      "alias": null,
+      "meta": {
+        "rows": 134170,
+        "pages": 949,
+        "page_size": 8192
+      }
+    },
+    {
+      "name": "kind_type",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "number",
+          "meta": {
+            "total": 7,
+            "nulls": 0,
+            "distinct": 7,
+            "index": true,
+            "min": 1.0,
+            "max": 7.0
+          }
+        },
+        {
+          "name": "kind",
+          "data_type": "string",
+          "meta": {
+            "total": 7,
+            "nulls": 0,
+            "distinct": 7,
+            "index": false,
+            "min_length": 5,
+            "max_length": 14
+          }
+        }
+      ],
+      "alias": null,
+      "meta": {
+        "rows": 7,
+        "pages": 1,
+        "page_size": 8192
+      }
+    },
+    {
+      "name": "link_type",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "number",
+          "meta": {
+            "total": 18,
+            "nulls": 0,
+            "distinct": 18,
+            "index": true,
+            "min": 1.0,
+            "max": 18.0
+          }
+        },
+        {
+          "name": "link",
+          "data_type": "string",
+          "meta": {
+            "total": 18,
+            "nulls": 0,
+            "distinct": 18,
+            "index": false,
+            "min_length": 6,
+            "max_length": 29
+          }
+        }
+      ],
+      "alias": null,
+      "meta": {
+        "rows": 18,
+        "pages": 1,
+        "page_size": 8192
+      }
+    },
+    {
+      "name": "movie_companies",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "number",
+          "meta": {
+            "total": 2609129,
+            "nulls": 0,
+            "distinct": 2609129,
+            "index": true,
+            "min": 1.0,
+            "max": 2609129.0
+          }
+        },
+        {
+          "name": "movie_id",
+          "data_type": "number",
+          "meta": {
+            "total": 2609129,
+            "nulls": 0,
+            "distinct": 1087236,
+            "index": false,
+            "min": 2.0,
+            "max": 2525745.0
+          }
+        },
+        {
+          "name": "company_id",
+          "data_type": "number",
+          "meta": {
+            "total": 2609129,
+            "nulls": 0,
+            "distinct": 234997,
+            "index": false,
+            "min": 1.0,
+            "max": 234997.0
+          }
+        },
+        {
+          "name": "company_type_id",
+          "data_type": "number",
+          "meta": {
+            "total": 2609129,
+            "nulls": 0,
+            "distinct": 2,
+            "index": false,
+            "min": 1.0,
+            "max": 2.0
+          }
+        },
+        {
+          "name": "note",
+          "data_type": "string",
+          "meta": {
+            "total": 2609129,
+            "nulls": 1271989,
+            "distinct": 66438,
+            "index": false,
+            "min_length": 1,
+            "max_length": 208
+          }
+        }
+      ],
+      "alias": null,
+      "meta": {
+        "rows": 2609129,
+        "pages": 18790,
+        "page_size": 8192
+      }
+    },
+    {
+      "name": "movie_info",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "number",
+          "meta": {
+            "total": 14835720,
+            "nulls": 0,
+            "distinct": 14835720,
+            "index": true,
+            "min": 1.0,
+            "max": 14835720.0
+          }
+        },
+        {
+          "name": "movie_id",
+          "data_type": "number",
+          "meta": {
+            "total": 14835720,
+            "nulls": 0,
+            "distinct": 2468825,
+            "index": false,
+            "min": 1.0,
+            "max": 2526430.0
+          }
+        },
+        {
+          "name": "info_type_id",
+          "data_type": "number",
+          "meta": {
+            "total": 14835720,
+            "nulls": 0,
+            "distinct": 71,
+            "index": false,
+            "min": 1.0,
+            "max": 110.0
+          }
+        },
+        {
+          "name": "info",
+          "data_type": "string",
+          "meta": {
+            "total": 14835720,
+            "nulls": 0,
+            "distinct": 2720930,
+            "index": false,
+            "min_length": 1,
+            "max_length": 19793
+          }
+        },
+        {
+          "name": "note",
+          "data_type": "string",
+          "meta": {
+            "total": 14835720,
+            "nulls": 13398746,
+            "distinct": 133610,
+            "index": false,
+            "min_length": 1,
+            "max_length": 387
+          }
+        }
+      ],
+      "alias": null,
+      "meta": {
+        "rows": 14835720,
+        "pages": 161993,
+        "page_size": 8192
+      }
+    },
+    {
+      "name": "movie_info_idx",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "number",
+          "meta": {
+            "total": 1380035,
+            "nulls": 0,
+            "distinct": 1380035,
+            "index": true,
+            "min": 1.0,
+            "max": 1380035.0
+          }
+        },
+        {
+          "name": "movie_id",
+          "data_type": "number",
+          "meta": {
+            "total": 1380035,
+            "nulls": 0,
+            "distinct": 459925,
+            "index": false,
+            "min": 2.0,
+            "max": 2525793.0
+          }
+        },
+        {
+          "name": "info_type_id",
+          "data_type": "number",
+          "meta": {
+            "total": 1380035,
+            "nulls": 0,
+            "distinct": 5,
+            "index": false,
+            "min": 99.0,
+            "max": 113.0
+          }
+        },
+        {
+          "name": "info",
+          "data_type": "string",
+          "meta": {
+            "total": 1380035,
+            "nulls": 0,
+            "distinct": 146245,
+            "index": false,
+            "min_length": 1,
+            "max_length": 10
+          }
+        },
+        {
+          "name": "note",
+          "data_type": "string",
+          "meta": {
+            "total": 1380035,
+            "nulls": 1380035,
+            "distinct": 0,
+            "index": false,
+            "min_length": 0,
+            "max_length": 0
+          }
+        }
+      ],
+      "alias": null,
+      "meta": {
+        "rows": 1380035,
+        "pages": 7935,
+        "page_size": 8192
+      }
+    },
+    {
+      "name": "movie_keyword",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "number",
+          "meta": {
+            "total": 4523930,
+            "nulls": 0,
+            "distinct": 4523930,
+            "index": true,
+            "min": 1.0,
+            "max": 4523930.0
+          }
+        },
+        {
+          "name": "movie_id",
+          "data_type": "number",
+          "meta": {
+            "total": 4523930,
+            "nulls": 0,
+            "distinct": 476794,
+            "index": false,
+            "min": 2.0,
+            "max": 2525971.0
+          }
+        },
+        {
+          "name": "keyword_id",
+          "data_type": "number",
+          "meta": {
+            "total": 4523930,
+            "nulls": 0,
+            "distinct": 134170,
+            "index": false,
+            "min": 1.0,
+            "max": 134170.0
+          }
+        }
+      ],
+      "alias": null,
+      "meta": {
+        "rows": 4523930,
+        "pages": 24454,
+        "page_size": 8192
+      }
+    },
+    {
+      "name": "movie_link",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "number",
+          "meta": {
+            "total": 29997,
+            "nulls": 0,
+            "distinct": 29997,
+            "index": true,
+            "min": 1.0,
+            "max": 29997.0
+          }
+        },
+        {
+          "name": "movie_id",
+          "data_type": "number",
+          "meta": {
+            "total": 29997,
+            "nulls": 0,
+            "distinct": 6411,
+            "index": false,
+            "min": 2.0,
+            "max": 186175.0
+          }
+        },
+        {
+          "name": "linked_movie_id",
+          "data_type": "number",
+          "meta": {
+            "total": 29997,
+            "nulls": 0,
+            "distinct": 16169,
+            "index": false,
+            "min": 284.0,
+            "max": 2524994.0
+          }
+        },
+        {
+          "name": "link_type_id",
+          "data_type": "number",
+          "meta": {
+            "total": 29997,
+            "nulls": 0,
+            "distinct": 16,
+            "index": false,
+            "min": 1.0,
+            "max": 17.0
+          }
+        }
+      ],
+      "alias": null,
+      "meta": {
+        "rows": 29997,
+        "pages": 163,
+        "page_size": 8192
+      }
+    },
+    {
+      "name": "name",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "number",
+          "meta": {
+            "total": 4167491,
+            "nulls": 0,
+            "distinct": 4167491,
+            "index": true,
+            "min": 1.0,
+            "max": 4167491.0
+          }
+        },
+        {
+          "name": "name",
+          "data_type": "string",
+          "meta": {
+            "total": 4167491,
+            "nulls": 0,
+            "distinct": 3587399,
+            "index": false,
+            "min_length": 1,
+            "max_length": 106
+          }
+        },
+        {
+          "name": "imdb_index",
+          "data_type": "string",
+          "meta": {
+            "total": 4167491,
+            "nulls": 3278462,
+            "distinct": 179,
+            "index": false,
+            "min_length": 1,
+            "max_length": 9
+          }
+        },
+        {
+          "name": "imdb_id",
+          "data_type": "number",
+          "meta": {
+            "total": 4167491,
+            "nulls": 4167491,
+            "distinct": 0,
+            "index": false,
+            "min": 0.0,
+            "max": 0.0
+          }
+        },
+        {
+          "name": "gender",
+          "data_type": "string",
+          "meta": {
+            "total": 4167491,
+            "nulls": 1466357,
+            "distinct": 2,
+            "index": false,
+            "min_length": 1,
+            "max_length": 1
+          }
+        },
+        {
+          "name": "name_pcode_cf",
+          "data_type": "string",
+          "meta": {
+            "total": 4167491,
+            "nulls": 7,
+            "distinct": 23603,
+            "index": false,
+            "min_length": 1,
+            "max_length": 5
+          }
+        },
+        {
+          "name": "name_pcode_nf",
+          "data_type": "string",
+          "meta": {
+            "total": 4167491,
+            "nulls": 99803,
+            "distinct": 23261,
+            "index": false,
+            "min_length": 1,
+            "max_length": 5
+          }
+        },
+        {
+          "name": "surname_pcode",
+          "data_type": "string",
+          "meta": {
+            "total": 4167491,
+            "nulls": 935910,
+            "distinct": 4671,
+            "index": false,
+            "min_length": 1,
+            "max_length": 4
+          }
+        },
+        {
+          "name": "md5sum",
+          "data_type": "string",
+          "meta": {
+            "total": 4167491,
+            "nulls": 0,
+            "distinct": 4167491,
+            "index": false,
+            "min_length": 32,
+            "max_length": 32
+          }
+        }
+      ],
+      "alias": null,
+      "meta": {
+        "rows": 4167491,
+        "pages": 55613,
+        "page_size": 8192
+      }
+    },
+    {
+      "name": "person_info",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "number",
+          "meta": {
+            "total": 2963664,
+            "nulls": 0,
+            "distinct": 2963664,
+            "index": true,
+            "min": 1.0,
+            "max": 2963664.0
+          }
+        },
+        {
+          "name": "person_id",
+          "data_type": "number",
+          "meta": {
+            "total": 2963664,
+            "nulls": 0,
+            "distinct": 550721,
+            "index": false,
+            "min": 4.0,
+            "max": 4167491.0
+          }
+        },
+        {
+          "name": "info_type_id",
+          "data_type": "number",
+          "meta": {
+            "total": 2963664,
+            "nulls": 0,
+            "distinct": 22,
+            "index": false,
+            "min": 15.0,
+            "max": 39.0
+          }
+        },
+        {
+          "name": "info",
+          "data_type": "string",
+          "meta": {
+            "total": 2963664,
+            "nulls": 0,
+            "distinct": 1925035,
+            "index": false,
+            "min_length": 1,
+            "max_length": 55656
+          }
+        },
+        {
+          "name": "note",
+          "data_type": "string",
+          "meta": {
+            "total": 2963664,
+            "nulls": 2879481,
+            "distinct": 49990,
+            "index": false,
+            "min_length": 1,
+            "max_length": 430
+          }
+        }
+      ],
+      "alias": null,
+      "meta": {
+        "rows": 2963664,
+        "pages": 51055,
+        "page_size": 8192
+      }
+    },
+    {
+      "name": "role_type",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "number",
+          "meta": {
+            "total": 12,
+            "nulls": 0,
+            "distinct": 12,
+            "index": true,
+            "min": 1.0,
+            "max": 12.0
+          }
+        },
+        {
+          "name": "role",
+          "data_type": "string",
+          "meta": {
+            "total": 12,
+            "nulls": 0,
+            "distinct": 12,
+            "index": false,
+            "min_length": 5,
+            "max_length": 19
+          }
+        }
+      ],
+      "alias": null,
+      "meta": {
+        "rows": 12,
+        "pages": 1,
+        "page_size": 8192
+      }
+    },
+    {
+      "name": "title",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "number",
+          "meta": {
+            "total": 2528312,
+            "nulls": 0,
+            "distinct": 2528312,
+            "index": true,
+            "min": 1.0,
+            "max": 2528312.0
+          }
+        },
+        {
+          "name": "title",
+          "data_type": "string",
+          "meta": {
+            "total": 2528312,
+            "nulls": 0,
+            "distinct": 1483630,
+            "index": false,
+            "min_length": 1,
+            "max_length": 334
+          }
+        },
+        {
+          "name": "imdb_index",
+          "data_type": "string",
+          "meta": {
+            "total": 2528312,
+            "nulls": 2502042,
+            "distinct": 24,
+            "index": false,
+            "min_length": 1,
+            "max_length": 5
+          }
+        },
+        {
+          "name": "kind_id",
+          "data_type": "number",
+          "meta": {
+            "total": 2528312,
+            "nulls": 0,
+            "distinct": 6,
+            "index": false,
+            "min": 1.0,
+            "max": 7.0
+          }
+        },
+        {
+          "name": "production_year",
+          "data_type": "number",
+          "meta": {
+            "total": 2528312,
+            "nulls": 72094,
+            "distinct": 132,
+            "index": false,
+            "min": 1880.0,
+            "max": 2019.0
+          }
+        },
+        {
+          "name": "imdb_id",
+          "data_type": "number",
+          "meta": {
+            "total": 2528312,
+            "nulls": 2528312,
+            "distinct": 0,
+            "index": false,
+            "min": 0.0,
+            "max": 0.0
+          }
+        },
+        {
+          "name": "phonetic_code",
+          "data_type": "string",
+          "meta": {
+            "total": 2528312,
+            "nulls": 718299,
+            "distinct": 23259,
+            "index": false,
+            "min_length": 1,
+            "max_length": 5
+          }
+        },
+        {
+          "name": "episode_of_id",
+          "data_type": "number",
+          "meta": {
+            "total": 2528312,
+            "nulls": 985048,
+            "distinct": 51481,
+            "index": false,
+            "min": 2.0,
+            "max": 2528186.0
+          }
+        },
+        {
+          "name": "season_nr",
+          "data_type": "number",
+          "meta": {
+            "total": 2528312,
+            "nulls": 1424509,
+            "distinct": 96,
+            "index": false,
+            "min": 1.0,
+            "max": 2013.0
+          }
+        },
+        {
+          "name": "episode_nr",
+          "data_type": "number",
+          "meta": {
+            "total": 2528312,
+            "nulls": 1425898,
+            "distinct": 14906,
+            "index": false,
+            "min": 1.0,
+            "max": 91821.0
+          }
+        },
+        {
+          "name": "series_years",
+          "data_type": "string",
+          "meta": {
+            "total": 2528312,
+            "nulls": 2437437,
+            "distinct": 1407,
+            "index": false,
+            "min_length": 4,
+            "max_length": 9
+          }
+        },
+        {
+          "name": "md5sum",
+          "data_type": "string",
+          "meta": {
+            "total": 2528312,
+            "nulls": 0,
+            "distinct": 2528312,
+            "index": false,
+            "min_length": 32,
+            "max_length": 32
+          }
+        }
+      ],
+      "alias": null,
+      "meta": {
+        "rows": 2528312,
+        "pages": 35998,
+        "page_size": 8192
+      }
+    }
+  ],
+  "columns": [
+    {
+      "name": "id",
+      "data_type": "number",
+      "meta": {
+        "total": 901343,
+        "nulls": 0,
+        "distinct": 901343,
+        "index": true,
+        "min": 1.0,
+        "max": 901343.0
+      }
+    },
+    {
+      "name": "person_id",
+      "data_type": "number",
+      "meta": {
+        "total": 901343,
+        "nulls": 0,
+        "distinct": 588222,
+        "index": false,
+        "min": 4.0,
+        "max": 4167489.0
+      }
+    },
+    {
+      "name": "name",
+      "data_type": "string",
+      "meta": {
+        "total": 901343,
+        "nulls": 0,
+        "distinct": 810514,
+        "index": false,
+        "min_length": 1,
+        "max_length": 218
+      }
+    },
+    {
+      "name": "imdb_index",
+      "data_type": "string",
+      "meta": {
+        "total": 901343,
+        "nulls": 901326,
+        "distinct": 5,
+        "index": false,
+        "min_length": 1,
+        "max_length": 3
+      }
+    },
+    {
+      "name": "name_pcode_cf",
+      "data_type": "string",
+      "meta": {
+        "total": 901343,
+        "nulls": 109,
+        "distinct": 22017,
+        "index": false,
+        "min_length": 1,
+        "max_length": 5
+      }
+    },
+    {
+      "name": "name_pcode_nf",
+      "data_type": "string",
+      "meta": {
+        "total": 901343,
+        "nulls": 109268,
+        "distinct": 21138,
+        "index": false,
+        "min_length": 1,
+        "max_length": 5
+      }
+    },
+    {
+      "name": "surname_pcode",
+      "data_type": "string",
+      "meta": {
+        "total": 901343,
+        "nulls": 280246,
+        "distinct": 4312,
+        "index": false,
+        "min_length": 1,
+        "max_length": 4
+      }
+    },
+    {
+      "name": "md5sum",
+      "data_type": "string",
+      "meta": {
+        "total": 901343,
+        "nulls": 0,
+        "distinct": 810625,
+        "index": false,
+        "min_length": 32,
+        "max_length": 32
+      }
+    },
+    {
+      "name": "id",
+      "data_type": "number",
+      "meta": {
+        "total": 361472,
+        "nulls": 0,
+        "distinct": 361472,
+        "index": true,
+        "min": 1.0,
+        "max": 377960.0
+      }
+    },
+    {
+      "name": "movie_id",
+      "data_type": "number",
+      "meta": {
+        "total": 361472,
+        "nulls": 0,
+        "distinct": 205631,
+        "index": false,
+        "min": 0.0,
+        "max": 2525672.0
+      }
+    },
+    {
+      "name": "title",
+      "data_type": "string",
+      "meta": {
+        "total": 361472,
+        "nulls": 0,
+        "distinct": 313624,
+        "index": false,
+        "min_length": 1,
+        "max_length": 553
+      }
+    },
+    {
+      "name": "imdb_index",
+      "data_type": "string",
+      "meta": {
+        "total": 361472,
+        "nulls": 358492,
+        "distinct": 12,
+        "index": false,
+        "min_length": 1,
+        "max_length": 4
+      }
+    },
+    {
+      "name": "kind_id",
+      "data_type": "number",
+      "meta": {
+        "total": 361472,
+        "nulls": 0,
+        "distinct": 6,
+        "index": false,
+        "min": 1.0,
+        "max": 7.0
+      }
+    },
+    {
+      "name": "production_year",
+      "data_type": "number",
+      "meta": {
+        "total": 361472,
+        "nulls": 3032,
+        "distinct": 128,
+        "index": false,
+        "min": 1888.0,
+        "max": 2016.0
+      }
+    },
+    {
+      "name": "phonetic_code",
+      "data_type": "string",
+      "meta": {
+        "total": 361472,
+        "nulls": 5194,
+        "distinct": 20013,
+        "index": false,
+        "min_length": 1,
+        "max_length": 5
+      }
+    },
+    {
+      "name": "episode_of_id",
+      "data_type": "number",
+      "meta": {
+        "total": 361472,
+        "nulls": 358596,
+        "distinct": 754,
+        "index": false,
+        "min": 10.0,
+        "max": 25391.0
+      }
+    },
+    {
+      "name": "season_nr",
+      "data_type": "number",
+      "meta": {
+        "total": 361472,
+        "nulls": 358855,
+        "distinct": 40,
+        "index": false,
+        "min": 1.0,
+        "max": 63.0
+      }
+    },
+    {
+      "name": "episode_nr",
+      "data_type": "number",
+      "meta": {
+        "total": 361472,
+        "nulls": 358879,
+        "distinct": 162,
+        "index": false,
+        "min": 1.0,
+        "max": 4315.0
+      }
+    },
+    {
+      "name": "note",
+      "data_type": "string",
+      "meta": {
+        "total": 361472,
+        "nulls": 27968,
+        "distinct": 3360,
+        "index": false,
+        "min_length": 4,
+        "max_length": 72
+      }
+    },
+    {
+      "name": "md5sum",
+      "data_type": "string",
+      "meta": {
+        "total": 361472,
+        "nulls": 0,
+        "distinct": 346289,
+        "index": false,
+        "min_length": 32,
+        "max_length": 32
+      }
+    },
+    {
+      "name": "id",
+      "data_type": "number",
+      "meta": {
+        "total": 36244344,
+        "nulls": 0,
+        "distinct": 36244344,
+        "index": true,
+        "min": 1.0,
+        "max": 36244344.0
+      }
+    },
+    {
+      "name": "person_id",
+      "data_type": "number",
+      "meta": {
+        "total": 36244344,
+        "nulls": 0,
+        "distinct": 4051810,
+        "index": false,
+        "min": 1.0,
+        "max": 4061926.0
+      }
+    },
+    {
+      "name": "movie_id",
+      "data_type": "number",
+      "meta": {
+        "total": 36244344,
+        "nulls": 0,
+        "distinct": 2331601,
+        "index": false,
+        "min": 1.0,
+        "max": 2525975.0
+      }
+    },
+    {
+      "name": "person_role_id",
+      "data_type": "number",
+      "meta": {
+        "total": 36244344,
+        "nulls": 18672825,
+        "distinct": 3140339,
+        "index": false,
+        "min": 1.0,
+        "max": 3140339.0
+      }
+    },
+    {
+      "name": "note",
+      "data_type": "string",
+      "meta": {
+        "total": 36244344,
+        "nulls": 22007252,
+        "distinct": 715273,
+        "index": false,
+        "min_length": 2,
+        "max_length": 922
+      }
+    },
+    {
+      "name": "nr_order",
+      "data_type": "number",
+      "meta": {
+        "total": 36244344,
+        "nulls": 25459763,
+        "distinct": 1094,
+        "index": false,
+        "min": 0.0,
+        "max": 1115798165.0
+      }
+    },
+    {
+      "name": "role_id",
+      "data_type": "number",
+      "meta": {
+        "total": 36244344,
+        "nulls": 0,
+        "distinct": 11,
+        "index": false,
+        "min": 1.0,
+        "max": 11.0
+      }
+    },
+    {
+      "name": "id",
+      "data_type": "number",
+      "meta": {
+        "total": 3140339,
+        "nulls": 0,
+        "distinct": 3140339,
+        "index": true,
+        "min": 1.0,
+        "max": 3140339.0
+      }
+    },
+    {
+      "name": "name",
+      "data_type": "string",
+      "meta": {
+        "total": 3140339,
+        "nulls": 0,
+        "distinct": 3139462,
+        "index": false,
+        "min_length": 1,
+        "max_length": 478
+      }
+    },
+    {
+      "name": "imdb_index",
+      "data_type": "string",
+      "meta": {
+        "total": 3140339,
+        "nulls": 3140311,
+        "distinct": 6,
+        "index": false,
+        "min_length": 1,
+        "max_length": 2
+      }
+    },
+    {
+      "name": "imdb_id",
+      "data_type": "number",
+      "meta": {
+        "total": 3140339,
+        "nulls": 3140339,
+        "distinct": 0,
+        "index": false,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    {
+      "name": "name_pcode_nf",
+      "data_type": "string",
+      "meta": {
+        "total": 3140339,
+        "nulls": 488,
+        "distinct": 23076,
+        "index": false,
+        "min_length": 1,
+        "max_length": 5
+      }
+    },
+    {
+      "name": "surname_pcode",
+      "data_type": "string",
+      "meta": {
+        "total": 3140339,
+        "nulls": 470680,
+        "distinct": 17198,
+        "index": false,
+        "min_length": 1,
+        "max_length": 5
+      }
+    },
+    {
+      "name": "md5sum",
+      "data_type": "string",
+      "meta": {
+        "total": 3140339,
+        "nulls": 0,
+        "distinct": 3140339,
+        "index": false,
+        "min_length": 32,
+        "max_length": 32
+      }
+    },
+    {
+      "name": "id",
+      "data_type": "number",
+      "meta": {
+        "total": 4,
+        "nulls": 0,
+        "distinct": 4,
+        "index": true,
+        "min": 1.0,
+        "max": 4.0
+      }
+    },
+    {
+      "name": "kind",
+      "data_type": "string",
+      "meta": {
+        "total": 4,
+        "nulls": 0,
+        "distinct": 4,
+        "index": false,
+        "min_length": 4,
+        "max_length": 17
+      }
+    },
+    {
+      "name": "id",
+      "data_type": "number",
+      "meta": {
+        "total": 234997,
+        "nulls": 0,
+        "distinct": 234997,
+        "index": true,
+        "min": 1.0,
+        "max": 234997.0
+      }
+    },
+    {
+      "name": "name",
+      "data_type": "string",
+      "meta": {
+        "total": 234997,
+        "nulls": 0,
+        "distinct": 224384,
+        "index": false,
+        "min_length": 1,
+        "max_length": 169
+      }
+    },
+    {
+      "name": "country_code",
+      "data_type": "string",
+      "meta": {
+        "total": 234997,
+        "nulls": 23924,
+        "distinct": 215,
+        "index": false,
+        "min_length": 4,
+        "max_length": 6
+      }
+    },
+    {
+      "name": "imdb_id",
+      "data_type": "number",
+      "meta": {
+        "total": 234997,
+        "nulls": 234997,
+        "distinct": 0,
+        "index": false,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    {
+      "name": "name_pcode_nf",
+      "data_type": "string",
+      "meta": {
+        "total": 234997,
+        "nulls": 36,
+        "distinct": 18486,
+        "index": false,
+        "min_length": 1,
+        "max_length": 5
+      }
+    },
+    {
+      "name": "name_pcode_sf",
+      "data_type": "string",
+      "meta": {
+        "total": 234997,
+        "nulls": 23924,
+        "distinct": 17446,
+        "index": false,
+        "min_length": 1,
+        "max_length": 5
+      }
+    },
+    {
+      "name": "md5sum",
+      "data_type": "string",
+      "meta": {
+        "total": 234997,
+        "nulls": 0,
+        "distinct": 234997,
+        "index": false,
+        "min_length": 32,
+        "max_length": 32
+      }
+    },
+    {
+      "name": "id",
+      "data_type": "number",
+      "meta": {
+        "total": 4,
+        "nulls": 0,
+        "distinct": 4,
+        "index": true,
+        "min": 1.0,
+        "max": 4.0
+      }
+    },
+    {
+      "name": "kind",
+      "data_type": "string",
+      "meta": {
+        "total": 4,
+        "nulls": 0,
+        "distinct": 4,
+        "index": false,
+        "min_length": 12,
+        "max_length": 25
+      }
+    },
+    {
+      "name": "id",
+      "data_type": "number",
+      "meta": {
+        "total": 135086,
+        "nulls": 0,
+        "distinct": 135086,
+        "index": true,
+        "min": 1.0,
+        "max": 135086.0
+      }
+    },
+    {
+      "name": "movie_id",
+      "data_type": "number",
+      "meta": {
+        "total": 135086,
+        "nulls": 0,
+        "distinct": 93514,
+        "index": false,
+        "min": 285.0,
+        "max": 2528312.0
+      }
+    },
+    {
+      "name": "subject_id",
+      "data_type": "number",
+      "meta": {
+        "total": 135086,
+        "nulls": 0,
+        "distinct": 2,
+        "index": false,
+        "min": 1.0,
+        "max": 2.0
+      }
+    },
+    {
+      "name": "status_id",
+      "data_type": "number",
+      "meta": {
+        "total": 135086,
+        "nulls": 0,
+        "distinct": 2,
+        "index": false,
+        "min": 3.0,
+        "max": 4.0
+      }
+    },
+    {
+      "name": "id",
+      "data_type": "number",
+      "meta": {
+        "total": 113,
+        "nulls": 0,
+        "distinct": 113,
+        "index": true,
+        "min": 1.0,
+        "max": 113.0
+      }
+    },
+    {
+      "name": "info",
+      "data_type": "string",
+      "meta": {
+        "total": 113,
+        "nulls": 0,
+        "distinct": 113,
+        "index": false,
+        "min_length": 4,
+        "max_length": 31
+      }
+    },
+    {
+      "name": "id",
+      "data_type": "number",
+      "meta": {
+        "total": 134170,
+        "nulls": 0,
+        "distinct": 134170,
+        "index": true,
+        "min": 1.0,
+        "max": 134170.0
+      }
+    },
+    {
+      "name": "keyword",
+      "data_type": "string",
+      "meta": {
+        "total": 134170,
+        "nulls": 0,
+        "distinct": 134170,
+        "index": false,
+        "min_length": 2,
+        "max_length": 74
+      }
+    },
+    {
+      "name": "phonetic_code",
+      "data_type": "string",
+      "meta": {
+        "total": 134170,
+        "nulls": 38,
+        "distinct": 15481,
+        "index": false,
+        "min_length": 1,
+        "max_length": 5
+      }
+    },
+    {
+      "name": "id",
+      "data_type": "number",
+      "meta": {
+        "total": 7,
+        "nulls": 0,
+        "distinct": 7,
+        "index": true,
+        "min": 1.0,
+        "max": 7.0
+      }
+    },
+    {
+      "name": "kind",
+      "data_type": "string",
+      "meta": {
+        "total": 7,
+        "nulls": 0,
+        "distinct": 7,
+        "index": false,
+        "min_length": 5,
+        "max_length": 14
+      }
+    },
+    {
+      "name": "id",
+      "data_type": "number",
+      "meta": {
+        "total": 18,
+        "nulls": 0,
+        "distinct": 18,
+        "index": true,
+        "min": 1.0,
+        "max": 18.0
+      }
+    },
+    {
+      "name": "link",
+      "data_type": "string",
+      "meta": {
+        "total": 18,
+        "nulls": 0,
+        "distinct": 18,
+        "index": false,
+        "min_length": 6,
+        "max_length": 29
+      }
+    },
+    {
+      "name": "id",
+      "data_type": "number",
+      "meta": {
+        "total": 2609129,
+        "nulls": 0,
+        "distinct": 2609129,
+        "index": true,
+        "min": 1.0,
+        "max": 2609129.0
+      }
+    },
+    {
+      "name": "movie_id",
+      "data_type": "number",
+      "meta": {
+        "total": 2609129,
+        "nulls": 0,
+        "distinct": 1087236,
+        "index": false,
+        "min": 2.0,
+        "max": 2525745.0
+      }
+    },
+    {
+      "name": "company_id",
+      "data_type": "number",
+      "meta": {
+        "total": 2609129,
+        "nulls": 0,
+        "distinct": 234997,
+        "index": false,
+        "min": 1.0,
+        "max": 234997.0
+      }
+    },
+    {
+      "name": "company_type_id",
+      "data_type": "number",
+      "meta": {
+        "total": 2609129,
+        "nulls": 0,
+        "distinct": 2,
+        "index": false,
+        "min": 1.0,
+        "max": 2.0
+      }
+    },
+    {
+      "name": "note",
+      "data_type": "string",
+      "meta": {
+        "total": 2609129,
+        "nulls": 1271989,
+        "distinct": 66438,
+        "index": false,
+        "min_length": 1,
+        "max_length": 208
+      }
+    },
+    {
+      "name": "id",
+      "data_type": "number",
+      "meta": {
+        "total": 14835720,
+        "nulls": 0,
+        "distinct": 14835720,
+        "index": true,
+        "min": 1.0,
+        "max": 14835720.0
+      }
+    },
+    {
+      "name": "movie_id",
+      "data_type": "number",
+      "meta": {
+        "total": 14835720,
+        "nulls": 0,
+        "distinct": 2468825,
+        "index": false,
+        "min": 1.0,
+        "max": 2526430.0
+      }
+    },
+    {
+      "name": "info_type_id",
+      "data_type": "number",
+      "meta": {
+        "total": 14835720,
+        "nulls": 0,
+        "distinct": 71,
+        "index": false,
+        "min": 1.0,
+        "max": 110.0
+      }
+    },
+    {
+      "name": "info",
+      "data_type": "string",
+      "meta": {
+        "total": 14835720,
+        "nulls": 0,
+        "distinct": 2720930,
+        "index": false,
+        "min_length": 1,
+        "max_length": 19793
+      }
+    },
+    {
+      "name": "note",
+      "data_type": "string",
+      "meta": {
+        "total": 14835720,
+        "nulls": 13398746,
+        "distinct": 133610,
+        "index": false,
+        "min_length": 1,
+        "max_length": 387
+      }
+    },
+    {
+      "name": "id",
+      "data_type": "number",
+      "meta": {
+        "total": 1380035,
+        "nulls": 0,
+        "distinct": 1380035,
+        "index": true,
+        "min": 1.0,
+        "max": 1380035.0
+      }
+    },
+    {
+      "name": "movie_id",
+      "data_type": "number",
+      "meta": {
+        "total": 1380035,
+        "nulls": 0,
+        "distinct": 459925,
+        "index": false,
+        "min": 2.0,
+        "max": 2525793.0
+      }
+    },
+    {
+      "name": "info_type_id",
+      "data_type": "number",
+      "meta": {
+        "total": 1380035,
+        "nulls": 0,
+        "distinct": 5,
+        "index": false,
+        "min": 99.0,
+        "max": 113.0
+      }
+    },
+    {
+      "name": "info",
+      "data_type": "string",
+      "meta": {
+        "total": 1380035,
+        "nulls": 0,
+        "distinct": 146245,
+        "index": false,
+        "min_length": 1,
+        "max_length": 10
+      }
+    },
+    {
+      "name": "note",
+      "data_type": "string",
+      "meta": {
+        "total": 1380035,
+        "nulls": 1380035,
+        "distinct": 0,
+        "index": false,
+        "min_length": 0,
+        "max_length": 0
+      }
+    },
+    {
+      "name": "id",
+      "data_type": "number",
+      "meta": {
+        "total": 4523930,
+        "nulls": 0,
+        "distinct": 4523930,
+        "index": true,
+        "min": 1.0,
+        "max": 4523930.0
+      }
+    },
+    {
+      "name": "movie_id",
+      "data_type": "number",
+      "meta": {
+        "total": 4523930,
+        "nulls": 0,
+        "distinct": 476794,
+        "index": false,
+        "min": 2.0,
+        "max": 2525971.0
+      }
+    },
+    {
+      "name": "keyword_id",
+      "data_type": "number",
+      "meta": {
+        "total": 4523930,
+        "nulls": 0,
+        "distinct": 134170,
+        "index": false,
+        "min": 1.0,
+        "max": 134170.0
+      }
+    },
+    {
+      "name": "id",
+      "data_type": "number",
+      "meta": {
+        "total": 29997,
+        "nulls": 0,
+        "distinct": 29997,
+        "index": true,
+        "min": 1.0,
+        "max": 29997.0
+      }
+    },
+    {
+      "name": "movie_id",
+      "data_type": "number",
+      "meta": {
+        "total": 29997,
+        "nulls": 0,
+        "distinct": 6411,
+        "index": false,
+        "min": 2.0,
+        "max": 186175.0
+      }
+    },
+    {
+      "name": "linked_movie_id",
+      "data_type": "number",
+      "meta": {
+        "total": 29997,
+        "nulls": 0,
+        "distinct": 16169,
+        "index": false,
+        "min": 284.0,
+        "max": 2524994.0
+      }
+    },
+    {
+      "name": "link_type_id",
+      "data_type": "number",
+      "meta": {
+        "total": 29997,
+        "nulls": 0,
+        "distinct": 16,
+        "index": false,
+        "min": 1.0,
+        "max": 17.0
+      }
+    },
+    {
+      "name": "id",
+      "data_type": "number",
+      "meta": {
+        "total": 4167491,
+        "nulls": 0,
+        "distinct": 4167491,
+        "index": true,
+        "min": 1.0,
+        "max": 4167491.0
+      }
+    },
+    {
+      "name": "name",
+      "data_type": "string",
+      "meta": {
+        "total": 4167491,
+        "nulls": 0,
+        "distinct": 3587399,
+        "index": false,
+        "min_length": 1,
+        "max_length": 106
+      }
+    },
+    {
+      "name": "imdb_index",
+      "data_type": "string",
+      "meta": {
+        "total": 4167491,
+        "nulls": 3278462,
+        "distinct": 179,
+        "index": false,
+        "min_length": 1,
+        "max_length": 9
+      }
+    },
+    {
+      "name": "imdb_id",
+      "data_type": "number",
+      "meta": {
+        "total": 4167491,
+        "nulls": 4167491,
+        "distinct": 0,
+        "index": false,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    {
+      "name": "gender",
+      "data_type": "string",
+      "meta": {
+        "total": 4167491,
+        "nulls": 1466357,
+        "distinct": 2,
+        "index": false,
+        "min_length": 1,
+        "max_length": 1
+      }
+    },
+    {
+      "name": "name_pcode_cf",
+      "data_type": "string",
+      "meta": {
+        "total": 4167491,
+        "nulls": 7,
+        "distinct": 23603,
+        "index": false,
+        "min_length": 1,
+        "max_length": 5
+      }
+    },
+    {
+      "name": "name_pcode_nf",
+      "data_type": "string",
+      "meta": {
+        "total": 4167491,
+        "nulls": 99803,
+        "distinct": 23261,
+        "index": false,
+        "min_length": 1,
+        "max_length": 5
+      }
+    },
+    {
+      "name": "surname_pcode",
+      "data_type": "string",
+      "meta": {
+        "total": 4167491,
+        "nulls": 935910,
+        "distinct": 4671,
+        "index": false,
+        "min_length": 1,
+        "max_length": 4
+      }
+    },
+    {
+      "name": "md5sum",
+      "data_type": "string",
+      "meta": {
+        "total": 4167491,
+        "nulls": 0,
+        "distinct": 4167491,
+        "index": false,
+        "min_length": 32,
+        "max_length": 32
+      }
+    },
+    {
+      "name": "id",
+      "data_type": "number",
+      "meta": {
+        "total": 2963664,
+        "nulls": 0,
+        "distinct": 2963664,
+        "index": true,
+        "min": 1.0,
+        "max": 2963664.0
+      }
+    },
+    {
+      "name": "person_id",
+      "data_type": "number",
+      "meta": {
+        "total": 2963664,
+        "nulls": 0,
+        "distinct": 550721,
+        "index": false,
+        "min": 4.0,
+        "max": 4167491.0
+      }
+    },
+    {
+      "name": "info_type_id",
+      "data_type": "number",
+      "meta": {
+        "total": 2963664,
+        "nulls": 0,
+        "distinct": 22,
+        "index": false,
+        "min": 15.0,
+        "max": 39.0
+      }
+    },
+    {
+      "name": "info",
+      "data_type": "string",
+      "meta": {
+        "total": 2963664,
+        "nulls": 0,
+        "distinct": 1925035,
+        "index": false,
+        "min_length": 1,
+        "max_length": 55656
+      }
+    },
+    {
+      "name": "note",
+      "data_type": "string",
+      "meta": {
+        "total": 2963664,
+        "nulls": 2879481,
+        "distinct": 49990,
+        "index": false,
+        "min_length": 1,
+        "max_length": 430
+      }
+    },
+    {
+      "name": "id",
+      "data_type": "number",
+      "meta": {
+        "total": 12,
+        "nulls": 0,
+        "distinct": 12,
+        "index": true,
+        "min": 1.0,
+        "max": 12.0
+      }
+    },
+    {
+      "name": "role",
+      "data_type": "string",
+      "meta": {
+        "total": 12,
+        "nulls": 0,
+        "distinct": 12,
+        "index": false,
+        "min_length": 5,
+        "max_length": 19
+      }
+    },
+    {
+      "name": "id",
+      "data_type": "number",
+      "meta": {
+        "total": 2528312,
+        "nulls": 0,
+        "distinct": 2528312,
+        "index": true,
+        "min": 1.0,
+        "max": 2528312.0
+      }
+    },
+    {
+      "name": "title",
+      "data_type": "string",
+      "meta": {
+        "total": 2528312,
+        "nulls": 0,
+        "distinct": 1483630,
+        "index": false,
+        "min_length": 1,
+        "max_length": 334
+      }
+    },
+    {
+      "name": "imdb_index",
+      "data_type": "string",
+      "meta": {
+        "total": 2528312,
+        "nulls": 2502042,
+        "distinct": 24,
+        "index": false,
+        "min_length": 1,
+        "max_length": 5
+      }
+    },
+    {
+      "name": "kind_id",
+      "data_type": "number",
+      "meta": {
+        "total": 2528312,
+        "nulls": 0,
+        "distinct": 6,
+        "index": false,
+        "min": 1.0,
+        "max": 7.0
+      }
+    },
+    {
+      "name": "production_year",
+      "data_type": "number",
+      "meta": {
+        "total": 2528312,
+        "nulls": 72094,
+        "distinct": 132,
+        "index": false,
+        "min": 1880.0,
+        "max": 2019.0
+      }
+    },
+    {
+      "name": "imdb_id",
+      "data_type": "number",
+      "meta": {
+        "total": 2528312,
+        "nulls": 2528312,
+        "distinct": 0,
+        "index": false,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    {
+      "name": "phonetic_code",
+      "data_type": "string",
+      "meta": {
+        "total": 2528312,
+        "nulls": 718299,
+        "distinct": 23259,
+        "index": false,
+        "min_length": 1,
+        "max_length": 5
+      }
+    },
+    {
+      "name": "episode_of_id",
+      "data_type": "number",
+      "meta": {
+        "total": 2528312,
+        "nulls": 985048,
+        "distinct": 51481,
+        "index": false,
+        "min": 2.0,
+        "max": 2528186.0
+      }
+    },
+    {
+      "name": "season_nr",
+      "data_type": "number",
+      "meta": {
+        "total": 2528312,
+        "nulls": 1424509,
+        "distinct": 96,
+        "index": false,
+        "min": 1.0,
+        "max": 2013.0
+      }
+    },
+    {
+      "name": "episode_nr",
+      "data_type": "number",
+      "meta": {
+        "total": 2528312,
+        "nulls": 1425898,
+        "distinct": 14906,
+        "index": false,
+        "min": 1.0,
+        "max": 91821.0
+      }
+    },
+    {
+      "name": "series_years",
+      "data_type": "string",
+      "meta": {
+        "total": 2528312,
+        "nulls": 2437437,
+        "distinct": 1407,
+        "index": false,
+        "min_length": 4,
+        "max_length": 9
+      }
+    },
+    {
+      "name": "md5sum",
+      "data_type": "string",
+      "meta": {
+        "total": 2528312,
+        "nulls": 0,
+        "distinct": 2528312,
+        "index": false,
+        "min_length": 32,
+        "max_length": 32
+      }
+    }
+  ],
+  "tables_lookup": {
+    "aka_name": {
+      "name": "aka_name",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "number",
+          "meta": {
+            "total": 901343,
+            "nulls": 0,
+            "distinct": 901343,
+            "index": true,
+            "min": 1.0,
+            "max": 901343.0
+          }
+        },
+        {
+          "name": "person_id",
+          "data_type": "number",
+          "meta": {
+            "total": 901343,
+            "nulls": 0,
+            "distinct": 588222,
+            "index": false,
+            "min": 4.0,
+            "max": 4167489.0
+          }
+        },
+        {
+          "name": "name",
+          "data_type": "string",
+          "meta": {
+            "total": 901343,
+            "nulls": 0,
+            "distinct": 810514,
+            "index": false,
+            "min_length": 1,
+            "max_length": 218
+          }
+        },
+        {
+          "name": "imdb_index",
+          "data_type": "string",
+          "meta": {
+            "total": 901343,
+            "nulls": 901326,
+            "distinct": 5,
+            "index": false,
+            "min_length": 1,
+            "max_length": 3
+          }
+        },
+        {
+          "name": "name_pcode_cf",
+          "data_type": "string",
+          "meta": {
+            "total": 901343,
+            "nulls": 109,
+            "distinct": 22017,
+            "index": false,
+            "min_length": 1,
+            "max_length": 5
+          }
+        },
+        {
+          "name": "name_pcode_nf",
+          "data_type": "string",
+          "meta": {
+            "total": 901343,
+            "nulls": 109268,
+            "distinct": 21138,
+            "index": false,
+            "min_length": 1,
+            "max_length": 5
+          }
+        },
+        {
+          "name": "surname_pcode",
+          "data_type": "string",
+          "meta": {
+            "total": 901343,
+            "nulls": 280246,
+            "distinct": 4312,
+            "index": false,
+            "min_length": 1,
+            "max_length": 4
+          }
+        },
+        {
+          "name": "md5sum",
+          "data_type": "string",
+          "meta": {
+            "total": 901343,
+            "nulls": 0,
+            "distinct": 810625,
+            "index": false,
+            "min_length": 32,
+            "max_length": 32
+          }
+        }
+      ],
+      "alias": null,
+      "meta": {
+        "rows": 901343,
+        "pages": 11396,
+        "page_size": 8192
+      }
+    },
+    "aka_title": {
+      "name": "aka_title",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "number",
+          "meta": {
+            "total": 361472,
+            "nulls": 0,
+            "distinct": 361472,
+            "index": true,
+            "min": 1.0,
+            "max": 377960.0
+          }
+        },
+        {
+          "name": "movie_id",
+          "data_type": "number",
+          "meta": {
+            "total": 361472,
+            "nulls": 0,
+            "distinct": 205631,
+            "index": false,
+            "min": 0.0,
+            "max": 2525672.0
+          }
+        },
+        {
+          "name": "title",
+          "data_type": "string",
+          "meta": {
+            "total": 361472,
+            "nulls": 0,
+            "distinct": 313624,
+            "index": false,
+            "min_length": 1,
+            "max_length": 553
+          }
+        },
+        {
+          "name": "imdb_index",
+          "data_type": "string",
+          "meta": {
+            "total": 361472,
+            "nulls": 358492,
+            "distinct": 12,
+            "index": false,
+            "min_length": 1,
+            "max_length": 4
+          }
+        },
+        {
+          "name": "kind_id",
+          "data_type": "number",
+          "meta": {
+            "total": 361472,
+            "nulls": 0,
+            "distinct": 6,
+            "index": false,
+            "min": 1.0,
+            "max": 7.0
+          }
+        },
+        {
+          "name": "production_year",
+          "data_type": "number",
+          "meta": {
+            "total": 361472,
+            "nulls": 3032,
+            "distinct": 128,
+            "index": false,
+            "min": 1888.0,
+            "max": 2016.0
+          }
+        },
+        {
+          "name": "phonetic_code",
+          "data_type": "string",
+          "meta": {
+            "total": 361472,
+            "nulls": 5194,
+            "distinct": 20013,
+            "index": false,
+            "min_length": 1,
+            "max_length": 5
+          }
+        },
+        {
+          "name": "episode_of_id",
+          "data_type": "number",
+          "meta": {
+            "total": 361472,
+            "nulls": 358596,
+            "distinct": 754,
+            "index": false,
+            "min": 10.0,
+            "max": 25391.0
+          }
+        },
+        {
+          "name": "season_nr",
+          "data_type": "number",
+          "meta": {
+            "total": 361472,
+            "nulls": 358855,
+            "distinct": 40,
+            "index": false,
+            "min": 1.0,
+            "max": 63.0
+          }
+        },
+        {
+          "name": "episode_nr",
+          "data_type": "number",
+          "meta": {
+            "total": 361472,
+            "nulls": 358879,
+            "distinct": 162,
+            "index": false,
+            "min": 1.0,
+            "max": 4315.0
+          }
+        },
+        {
+          "name": "note",
+          "data_type": "string",
+          "meta": {
+            "total": 361472,
+            "nulls": 27968,
+            "distinct": 3360,
+            "index": false,
+            "min_length": 4,
+            "max_length": 72
+          }
+        },
+        {
+          "name": "md5sum",
+          "data_type": "string",
+          "meta": {
+            "total": 361472,
+            "nulls": 0,
+            "distinct": 346289,
+            "index": false,
+            "min_length": 32,
+            "max_length": 32
+          }
+        }
+      ],
+      "alias": null,
+      "meta": {
+        "rows": 361472,
+        "pages": 6192,
+        "page_size": 8192
+      }
+    },
+    "cast_info": {
+      "name": "cast_info",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "number",
+          "meta": {
+            "total": 36244344,
+            "nulls": 0,
+            "distinct": 36244344,
+            "index": true,
+            "min": 1.0,
+            "max": 36244344.0
+          }
+        },
+        {
+          "name": "person_id",
+          "data_type": "number",
+          "meta": {
+            "total": 36244344,
+            "nulls": 0,
+            "distinct": 4051810,
+            "index": false,
+            "min": 1.0,
+            "max": 4061926.0
+          }
+        },
+        {
+          "name": "movie_id",
+          "data_type": "number",
+          "meta": {
+            "total": 36244344,
+            "nulls": 0,
+            "distinct": 2331601,
+            "index": false,
+            "min": 1.0,
+            "max": 2525975.0
+          }
+        },
+        {
+          "name": "person_role_id",
+          "data_type": "number",
+          "meta": {
+            "total": 36244344,
+            "nulls": 18672825,
+            "distinct": 3140339,
+            "index": false,
+            "min": 1.0,
+            "max": 3140339.0
+          }
+        },
+        {
+          "name": "note",
+          "data_type": "string",
+          "meta": {
+            "total": 36244344,
+            "nulls": 22007252,
+            "distinct": 715273,
+            "index": false,
+            "min_length": 2,
+            "max_length": 922
+          }
+        },
+        {
+          "name": "nr_order",
+          "data_type": "number",
+          "meta": {
+            "total": 36244344,
+            "nulls": 25459763,
+            "distinct": 1094,
+            "index": false,
+            "min": 0.0,
+            "max": 1115798165.0
+          }
+        },
+        {
+          "name": "role_id",
+          "data_type": "number",
+          "meta": {
+            "total": 36244344,
+            "nulls": 0,
+            "distinct": 11,
+            "index": false,
+            "min": 1.0,
+            "max": 11.0
+          }
+        }
+      ],
+      "alias": null,
+      "meta": {
+        "rows": 36244344,
+        "pages": 252687,
+        "page_size": 8192
+      }
+    },
+    "char_name": {
+      "name": "char_name",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "number",
+          "meta": {
+            "total": 3140339,
+            "nulls": 0,
+            "distinct": 3140339,
+            "index": true,
+            "min": 1.0,
+            "max": 3140339.0
+          }
+        },
+        {
+          "name": "name",
+          "data_type": "string",
+          "meta": {
+            "total": 3140339,
+            "nulls": 0,
+            "distinct": 3139462,
+            "index": false,
+            "min_length": 1,
+            "max_length": 478
+          }
+        },
+        {
+          "name": "imdb_index",
+          "data_type": "string",
+          "meta": {
+            "total": 3140339,
+            "nulls": 3140311,
+            "distinct": 6,
+            "index": false,
+            "min_length": 1,
+            "max_length": 2
+          }
+        },
+        {
+          "name": "imdb_id",
+          "data_type": "number",
+          "meta": {
+            "total": 3140339,
+            "nulls": 3140339,
+            "distinct": 0,
+            "index": false,
+            "min": 0.0,
+            "max": 0.0
+          }
+        },
+        {
+          "name": "name_pcode_nf",
+          "data_type": "string",
+          "meta": {
+            "total": 3140339,
+            "nulls": 488,
+            "distinct": 23076,
+            "index": false,
+            "min_length": 1,
+            "max_length": 5
+          }
+        },
+        {
+          "name": "surname_pcode",
+          "data_type": "string",
+          "meta": {
+            "total": 3140339,
+            "nulls": 470680,
+            "distinct": 17198,
+            "index": false,
+            "min_length": 1,
+            "max_length": 5
+          }
+        },
+        {
+          "name": "md5sum",
+          "data_type": "string",
+          "meta": {
+            "total": 3140339,
+            "nulls": 0,
+            "distinct": 3140339,
+            "index": false,
+            "min_length": 32,
+            "max_length": 32
+          }
+        }
+      ],
+      "alias": null,
+      "meta": {
+        "rows": 3140339,
+        "pages": 36448,
+        "page_size": 8192
+      }
+    },
+    "comp_cast_type": {
+      "name": "comp_cast_type",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "number",
+          "meta": {
+            "total": 4,
+            "nulls": 0,
+            "distinct": 4,
+            "index": true,
+            "min": 1.0,
+            "max": 4.0
+          }
+        },
+        {
+          "name": "kind",
+          "data_type": "string",
+          "meta": {
+            "total": 4,
+            "nulls": 0,
+            "distinct": 4,
+            "index": false,
+            "min_length": 4,
+            "max_length": 17
+          }
+        }
+      ],
+      "alias": null,
+      "meta": {
+        "rows": 4,
+        "pages": 1,
+        "page_size": 8192
+      }
+    },
+    "company_name": {
+      "name": "company_name",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "number",
+          "meta": {
+            "total": 234997,
+            "nulls": 0,
+            "distinct": 234997,
+            "index": true,
+            "min": 1.0,
+            "max": 234997.0
+          }
+        },
+        {
+          "name": "name",
+          "data_type": "string",
+          "meta": {
+            "total": 234997,
+            "nulls": 0,
+            "distinct": 224384,
+            "index": false,
+            "min_length": 1,
+            "max_length": 169
+          }
+        },
+        {
+          "name": "country_code",
+          "data_type": "string",
+          "meta": {
+            "total": 234997,
+            "nulls": 23924,
+            "distinct": 215,
+            "index": false,
+            "min_length": 4,
+            "max_length": 6
+          }
+        },
+        {
+          "name": "imdb_id",
+          "data_type": "number",
+          "meta": {
+            "total": 234997,
+            "nulls": 234997,
+            "distinct": 0,
+            "index": false,
+            "min": 0.0,
+            "max": 0.0
+          }
+        },
+        {
+          "name": "name_pcode_nf",
+          "data_type": "string",
+          "meta": {
+            "total": 234997,
+            "nulls": 36,
+            "distinct": 18486,
+            "index": false,
+            "min_length": 1,
+            "max_length": 5
+          }
+        },
+        {
+          "name": "name_pcode_sf",
+          "data_type": "string",
+          "meta": {
+            "total": 234997,
+            "nulls": 23924,
+            "distinct": 17446,
+            "index": false,
+            "min_length": 1,
+            "max_length": 5
+          }
+        },
+        {
+          "name": "md5sum",
+          "data_type": "string",
+          "meta": {
+            "total": 234997,
+            "nulls": 0,
+            "distinct": 234997,
+            "index": false,
+            "min_length": 32,
+            "max_length": 32
+          }
+        }
+      ],
+      "alias": null,
+      "meta": {
+        "rows": 234997,
+        "pages": 2995,
+        "page_size": 8192
+      }
+    },
+    "company_type": {
+      "name": "company_type",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "number",
+          "meta": {
+            "total": 4,
+            "nulls": 0,
+            "distinct": 4,
+            "index": true,
+            "min": 1.0,
+            "max": 4.0
+          }
+        },
+        {
+          "name": "kind",
+          "data_type": "string",
+          "meta": {
+            "total": 4,
+            "nulls": 0,
+            "distinct": 4,
+            "index": false,
+            "min_length": 12,
+            "max_length": 25
+          }
+        }
+      ],
+      "alias": null,
+      "meta": {
+        "rows": 4,
+        "pages": 1,
+        "page_size": 8192
+      }
+    },
+    "complete_cast": {
+      "name": "complete_cast",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "number",
+          "meta": {
+            "total": 135086,
+            "nulls": 0,
+            "distinct": 135086,
+            "index": true,
+            "min": 1.0,
+            "max": 135086.0
+          }
+        },
+        {
+          "name": "movie_id",
+          "data_type": "number",
+          "meta": {
+            "total": 135086,
+            "nulls": 0,
+            "distinct": 93514,
+            "index": false,
+            "min": 285.0,
+            "max": 2528312.0
+          }
+        },
+        {
+          "name": "subject_id",
+          "data_type": "number",
+          "meta": {
+            "total": 135086,
+            "nulls": 0,
+            "distinct": 2,
+            "index": false,
+            "min": 1.0,
+            "max": 2.0
+          }
+        },
+        {
+          "name": "status_id",
+          "data_type": "number",
+          "meta": {
+            "total": 135086,
+            "nulls": 0,
+            "distinct": 2,
+            "index": false,
+            "min": 3.0,
+            "max": 4.0
+          }
+        }
+      ],
+      "alias": null,
+      "meta": {
+        "rows": 135086,
+        "pages": 731,
+        "page_size": 8192
+      }
+    },
+    "info_type": {
+      "name": "info_type",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "number",
+          "meta": {
+            "total": 113,
+            "nulls": 0,
+            "distinct": 113,
+            "index": true,
+            "min": 1.0,
+            "max": 113.0
+          }
+        },
+        {
+          "name": "info",
+          "data_type": "string",
+          "meta": {
+            "total": 113,
+            "nulls": 0,
+            "distinct": 113,
+            "index": false,
+            "min_length": 4,
+            "max_length": 31
+          }
+        }
+      ],
+      "alias": null,
+      "meta": {
+        "rows": 113,
+        "pages": 1,
+        "page_size": 8192
+      }
+    },
+    "keyword": {
+      "name": "keyword",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "number",
+          "meta": {
+            "total": 134170,
+            "nulls": 0,
+            "distinct": 134170,
+            "index": true,
+            "min": 1.0,
+            "max": 134170.0
+          }
+        },
+        {
+          "name": "keyword",
+          "data_type": "string",
+          "meta": {
+            "total": 134170,
+            "nulls": 0,
+            "distinct": 134170,
+            "index": false,
+            "min_length": 2,
+            "max_length": 74
+          }
+        },
+        {
+          "name": "phonetic_code",
+          "data_type": "string",
+          "meta": {
+            "total": 134170,
+            "nulls": 38,
+            "distinct": 15481,
+            "index": false,
+            "min_length": 1,
+            "max_length": 5
+          }
+        }
+      ],
+      "alias": null,
+      "meta": {
+        "rows": 134170,
+        "pages": 949,
+        "page_size": 8192
+      }
+    },
+    "kind_type": {
+      "name": "kind_type",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "number",
+          "meta": {
+            "total": 7,
+            "nulls": 0,
+            "distinct": 7,
+            "index": true,
+            "min": 1.0,
+            "max": 7.0
+          }
+        },
+        {
+          "name": "kind",
+          "data_type": "string",
+          "meta": {
+            "total": 7,
+            "nulls": 0,
+            "distinct": 7,
+            "index": false,
+            "min_length": 5,
+            "max_length": 14
+          }
+        }
+      ],
+      "alias": null,
+      "meta": {
+        "rows": 7,
+        "pages": 1,
+        "page_size": 8192
+      }
+    },
+    "link_type": {
+      "name": "link_type",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "number",
+          "meta": {
+            "total": 18,
+            "nulls": 0,
+            "distinct": 18,
+            "index": true,
+            "min": 1.0,
+            "max": 18.0
+          }
+        },
+        {
+          "name": "link",
+          "data_type": "string",
+          "meta": {
+            "total": 18,
+            "nulls": 0,
+            "distinct": 18,
+            "index": false,
+            "min_length": 6,
+            "max_length": 29
+          }
+        }
+      ],
+      "alias": null,
+      "meta": {
+        "rows": 18,
+        "pages": 1,
+        "page_size": 8192
+      }
+    },
+    "movie_companies": {
+      "name": "movie_companies",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "number",
+          "meta": {
+            "total": 2609129,
+            "nulls": 0,
+            "distinct": 2609129,
+            "index": true,
+            "min": 1.0,
+            "max": 2609129.0
+          }
+        },
+        {
+          "name": "movie_id",
+          "data_type": "number",
+          "meta": {
+            "total": 2609129,
+            "nulls": 0,
+            "distinct": 1087236,
+            "index": false,
+            "min": 2.0,
+            "max": 2525745.0
+          }
+        },
+        {
+          "name": "company_id",
+          "data_type": "number",
+          "meta": {
+            "total": 2609129,
+            "nulls": 0,
+            "distinct": 234997,
+            "index": false,
+            "min": 1.0,
+            "max": 234997.0
+          }
+        },
+        {
+          "name": "company_type_id",
+          "data_type": "number",
+          "meta": {
+            "total": 2609129,
+            "nulls": 0,
+            "distinct": 2,
+            "index": false,
+            "min": 1.0,
+            "max": 2.0
+          }
+        },
+        {
+          "name": "note",
+          "data_type": "string",
+          "meta": {
+            "total": 2609129,
+            "nulls": 1271989,
+            "distinct": 66438,
+            "index": false,
+            "min_length": 1,
+            "max_length": 208
+          }
+        }
+      ],
+      "alias": null,
+      "meta": {
+        "rows": 2609129,
+        "pages": 18790,
+        "page_size": 8192
+      }
+    },
+    "movie_info": {
+      "name": "movie_info",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "number",
+          "meta": {
+            "total": 14835720,
+            "nulls": 0,
+            "distinct": 14835720,
+            "index": true,
+            "min": 1.0,
+            "max": 14835720.0
+          }
+        },
+        {
+          "name": "movie_id",
+          "data_type": "number",
+          "meta": {
+            "total": 14835720,
+            "nulls": 0,
+            "distinct": 2468825,
+            "index": false,
+            "min": 1.0,
+            "max": 2526430.0
+          }
+        },
+        {
+          "name": "info_type_id",
+          "data_type": "number",
+          "meta": {
+            "total": 14835720,
+            "nulls": 0,
+            "distinct": 71,
+            "index": false,
+            "min": 1.0,
+            "max": 110.0
+          }
+        },
+        {
+          "name": "info",
+          "data_type": "string",
+          "meta": {
+            "total": 14835720,
+            "nulls": 0,
+            "distinct": 2720930,
+            "index": false,
+            "min_length": 1,
+            "max_length": 19793
+          }
+        },
+        {
+          "name": "note",
+          "data_type": "string",
+          "meta": {
+            "total": 14835720,
+            "nulls": 13398746,
+            "distinct": 133610,
+            "index": false,
+            "min_length": 1,
+            "max_length": 387
+          }
+        }
+      ],
+      "alias": null,
+      "meta": {
+        "rows": 14835720,
+        "pages": 161993,
+        "page_size": 8192
+      }
+    },
+    "movie_info_idx": {
+      "name": "movie_info_idx",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "number",
+          "meta": {
+            "total": 1380035,
+            "nulls": 0,
+            "distinct": 1380035,
+            "index": true,
+            "min": 1.0,
+            "max": 1380035.0
+          }
+        },
+        {
+          "name": "movie_id",
+          "data_type": "number",
+          "meta": {
+            "total": 1380035,
+            "nulls": 0,
+            "distinct": 459925,
+            "index": false,
+            "min": 2.0,
+            "max": 2525793.0
+          }
+        },
+        {
+          "name": "info_type_id",
+          "data_type": "number",
+          "meta": {
+            "total": 1380035,
+            "nulls": 0,
+            "distinct": 5,
+            "index": false,
+            "min": 99.0,
+            "max": 113.0
+          }
+        },
+        {
+          "name": "info",
+          "data_type": "string",
+          "meta": {
+            "total": 1380035,
+            "nulls": 0,
+            "distinct": 146245,
+            "index": false,
+            "min_length": 1,
+            "max_length": 10
+          }
+        },
+        {
+          "name": "note",
+          "data_type": "string",
+          "meta": {
+            "total": 1380035,
+            "nulls": 1380035,
+            "distinct": 0,
+            "index": false,
+            "min_length": 0,
+            "max_length": 0
+          }
+        }
+      ],
+      "alias": null,
+      "meta": {
+        "rows": 1380035,
+        "pages": 7935,
+        "page_size": 8192
+      }
+    },
+    "movie_keyword": {
+      "name": "movie_keyword",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "number",
+          "meta": {
+            "total": 4523930,
+            "nulls": 0,
+            "distinct": 4523930,
+            "index": true,
+            "min": 1.0,
+            "max": 4523930.0
+          }
+        },
+        {
+          "name": "movie_id",
+          "data_type": "number",
+          "meta": {
+            "total": 4523930,
+            "nulls": 0,
+            "distinct": 476794,
+            "index": false,
+            "min": 2.0,
+            "max": 2525971.0
+          }
+        },
+        {
+          "name": "keyword_id",
+          "data_type": "number",
+          "meta": {
+            "total": 4523930,
+            "nulls": 0,
+            "distinct": 134170,
+            "index": false,
+            "min": 1.0,
+            "max": 134170.0
+          }
+        }
+      ],
+      "alias": null,
+      "meta": {
+        "rows": 4523930,
+        "pages": 24454,
+        "page_size": 8192
+      }
+    },
+    "movie_link": {
+      "name": "movie_link",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "number",
+          "meta": {
+            "total": 29997,
+            "nulls": 0,
+            "distinct": 29997,
+            "index": true,
+            "min": 1.0,
+            "max": 29997.0
+          }
+        },
+        {
+          "name": "movie_id",
+          "data_type": "number",
+          "meta": {
+            "total": 29997,
+            "nulls": 0,
+            "distinct": 6411,
+            "index": false,
+            "min": 2.0,
+            "max": 186175.0
+          }
+        },
+        {
+          "name": "linked_movie_id",
+          "data_type": "number",
+          "meta": {
+            "total": 29997,
+            "nulls": 0,
+            "distinct": 16169,
+            "index": false,
+            "min": 284.0,
+            "max": 2524994.0
+          }
+        },
+        {
+          "name": "link_type_id",
+          "data_type": "number",
+          "meta": {
+            "total": 29997,
+            "nulls": 0,
+            "distinct": 16,
+            "index": false,
+            "min": 1.0,
+            "max": 17.0
+          }
+        }
+      ],
+      "alias": null,
+      "meta": {
+        "rows": 29997,
+        "pages": 163,
+        "page_size": 8192
+      }
+    },
+    "name": {
+      "name": "name",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "number",
+          "meta": {
+            "total": 4167491,
+            "nulls": 0,
+            "distinct": 4167491,
+            "index": true,
+            "min": 1.0,
+            "max": 4167491.0
+          }
+        },
+        {
+          "name": "name",
+          "data_type": "string",
+          "meta": {
+            "total": 4167491,
+            "nulls": 0,
+            "distinct": 3587399,
+            "index": false,
+            "min_length": 1,
+            "max_length": 106
+          }
+        },
+        {
+          "name": "imdb_index",
+          "data_type": "string",
+          "meta": {
+            "total": 4167491,
+            "nulls": 3278462,
+            "distinct": 179,
+            "index": false,
+            "min_length": 1,
+            "max_length": 9
+          }
+        },
+        {
+          "name": "imdb_id",
+          "data_type": "number",
+          "meta": {
+            "total": 4167491,
+            "nulls": 4167491,
+            "distinct": 0,
+            "index": false,
+            "min": 0.0,
+            "max": 0.0
+          }
+        },
+        {
+          "name": "gender",
+          "data_type": "string",
+          "meta": {
+            "total": 4167491,
+            "nulls": 1466357,
+            "distinct": 2,
+            "index": false,
+            "min_length": 1,
+            "max_length": 1
+          }
+        },
+        {
+          "name": "name_pcode_cf",
+          "data_type": "string",
+          "meta": {
+            "total": 4167491,
+            "nulls": 7,
+            "distinct": 23603,
+            "index": false,
+            "min_length": 1,
+            "max_length": 5
+          }
+        },
+        {
+          "name": "name_pcode_nf",
+          "data_type": "string",
+          "meta": {
+            "total": 4167491,
+            "nulls": 99803,
+            "distinct": 23261,
+            "index": false,
+            "min_length": 1,
+            "max_length": 5
+          }
+        },
+        {
+          "name": "surname_pcode",
+          "data_type": "string",
+          "meta": {
+            "total": 4167491,
+            "nulls": 935910,
+            "distinct": 4671,
+            "index": false,
+            "min_length": 1,
+            "max_length": 4
+          }
+        },
+        {
+          "name": "md5sum",
+          "data_type": "string",
+          "meta": {
+            "total": 4167491,
+            "nulls": 0,
+            "distinct": 4167491,
+            "index": false,
+            "min_length": 32,
+            "max_length": 32
+          }
+        }
+      ],
+      "alias": null,
+      "meta": {
+        "rows": 4167491,
+        "pages": 55613,
+        "page_size": 8192
+      }
+    },
+    "person_info": {
+      "name": "person_info",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "number",
+          "meta": {
+            "total": 2963664,
+            "nulls": 0,
+            "distinct": 2963664,
+            "index": true,
+            "min": 1.0,
+            "max": 2963664.0
+          }
+        },
+        {
+          "name": "person_id",
+          "data_type": "number",
+          "meta": {
+            "total": 2963664,
+            "nulls": 0,
+            "distinct": 550721,
+            "index": false,
+            "min": 4.0,
+            "max": 4167491.0
+          }
+        },
+        {
+          "name": "info_type_id",
+          "data_type": "number",
+          "meta": {
+            "total": 2963664,
+            "nulls": 0,
+            "distinct": 22,
+            "index": false,
+            "min": 15.0,
+            "max": 39.0
+          }
+        },
+        {
+          "name": "info",
+          "data_type": "string",
+          "meta": {
+            "total": 2963664,
+            "nulls": 0,
+            "distinct": 1925035,
+            "index": false,
+            "min_length": 1,
+            "max_length": 55656
+          }
+        },
+        {
+          "name": "note",
+          "data_type": "string",
+          "meta": {
+            "total": 2963664,
+            "nulls": 2879481,
+            "distinct": 49990,
+            "index": false,
+            "min_length": 1,
+            "max_length": 430
+          }
+        }
+      ],
+      "alias": null,
+      "meta": {
+        "rows": 2963664,
+        "pages": 51055,
+        "page_size": 8192
+      }
+    },
+    "role_type": {
+      "name": "role_type",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "number",
+          "meta": {
+            "total": 12,
+            "nulls": 0,
+            "distinct": 12,
+            "index": true,
+            "min": 1.0,
+            "max": 12.0
+          }
+        },
+        {
+          "name": "role",
+          "data_type": "string",
+          "meta": {
+            "total": 12,
+            "nulls": 0,
+            "distinct": 12,
+            "index": false,
+            "min_length": 5,
+            "max_length": 19
+          }
+        }
+      ],
+      "alias": null,
+      "meta": {
+        "rows": 12,
+        "pages": 1,
+        "page_size": 8192
+      }
+    },
+    "title": {
+      "name": "title",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "number",
+          "meta": {
+            "total": 2528312,
+            "nulls": 0,
+            "distinct": 2528312,
+            "index": true,
+            "min": 1.0,
+            "max": 2528312.0
+          }
+        },
+        {
+          "name": "title",
+          "data_type": "string",
+          "meta": {
+            "total": 2528312,
+            "nulls": 0,
+            "distinct": 1483630,
+            "index": false,
+            "min_length": 1,
+            "max_length": 334
+          }
+        },
+        {
+          "name": "imdb_index",
+          "data_type": "string",
+          "meta": {
+            "total": 2528312,
+            "nulls": 2502042,
+            "distinct": 24,
+            "index": false,
+            "min_length": 1,
+            "max_length": 5
+          }
+        },
+        {
+          "name": "kind_id",
+          "data_type": "number",
+          "meta": {
+            "total": 2528312,
+            "nulls": 0,
+            "distinct": 6,
+            "index": false,
+            "min": 1.0,
+            "max": 7.0
+          }
+        },
+        {
+          "name": "production_year",
+          "data_type": "number",
+          "meta": {
+            "total": 2528312,
+            "nulls": 72094,
+            "distinct": 132,
+            "index": false,
+            "min": 1880.0,
+            "max": 2019.0
+          }
+        },
+        {
+          "name": "imdb_id",
+          "data_type": "number",
+          "meta": {
+            "total": 2528312,
+            "nulls": 2528312,
+            "distinct": 0,
+            "index": false,
+            "min": 0.0,
+            "max": 0.0
+          }
+        },
+        {
+          "name": "phonetic_code",
+          "data_type": "string",
+          "meta": {
+            "total": 2528312,
+            "nulls": 718299,
+            "distinct": 23259,
+            "index": false,
+            "min_length": 1,
+            "max_length": 5
+          }
+        },
+        {
+          "name": "episode_of_id",
+          "data_type": "number",
+          "meta": {
+            "total": 2528312,
+            "nulls": 985048,
+            "distinct": 51481,
+            "index": false,
+            "min": 2.0,
+            "max": 2528186.0
+          }
+        },
+        {
+          "name": "season_nr",
+          "data_type": "number",
+          "meta": {
+            "total": 2528312,
+            "nulls": 1424509,
+            "distinct": 96,
+            "index": false,
+            "min": 1.0,
+            "max": 2013.0
+          }
+        },
+        {
+          "name": "episode_nr",
+          "data_type": "number",
+          "meta": {
+            "total": 2528312,
+            "nulls": 1425898,
+            "distinct": 14906,
+            "index": false,
+            "min": 1.0,
+            "max": 91821.0
+          }
+        },
+        {
+          "name": "series_years",
+          "data_type": "string",
+          "meta": {
+            "total": 2528312,
+            "nulls": 2437437,
+            "distinct": 1407,
+            "index": false,
+            "min_length": 4,
+            "max_length": 9
+          }
+        },
+        {
+          "name": "md5sum",
+          "data_type": "string",
+          "meta": {
+            "total": 2528312,
+            "nulls": 0,
+            "distinct": 2528312,
+            "index": false,
+            "min_length": 32,
+            "max_length": 32
+          }
+        }
+      ],
+      "alias": null,
+      "meta": {
+        "rows": 2528312,
+        "pages": 35998,
+        "page_size": 8192
+      }
+    }
+  }
+}
